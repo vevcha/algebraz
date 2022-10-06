@@ -5,32 +5,54 @@ html {
 }
 
 body {
-    background-color: #777;
-    
-      
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    margin: ;
-    width: ;
-    height: ;
+    color: white;
         
 
 }
 
 h1 {
-    color: #000;
+    
     font-weight: bold;
     text-align: left;
     }
 
-a {
-    color: #000;
+a:link {
     font-weight: bold;
-                    
+    text-decoration: none;
+    color: white;
 }
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    background-color: gray;
+}
+                 
+
    
+ul{ font-size: x-large;
+    
+}
+
+
 #logo {
+    
     width: 50%;
     height: 50%;
 
 }
+
+h3 {
+    color: yellow;
+}
+
+
+/*{}*/
