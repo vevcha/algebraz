@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="log">
+      <img src="./images/logo1.png" id="logo" alt="logo" />
+      <br />
+      <br />
+      NAZIV
+    </p>
+    <br />
+    <br />
+    <h1>Registracija</h1>
+    <p>
+      Molimo Vas da točno popunite navedenu formu, kako bi ste kreirali
+      korisnički račun.
+    </p>
+
+    <hr />
+    <br />
+    <form action="" method="post">
+      <label for="korime">Korisničko ime</label><br />
+      <input
+        type="text"
+        id="kroime"
+        name="korime"
+        required="required"
+      /><br /><br />
+      <label for="sifra">Šifra</label><br />
+      <input
+        type="password"
+        id="sifra"
+        name="sifra"
+        placeholder="Najmanje 6 znakova"
+        required="required"
+      /><br />
+      <br />
+      <hr />
+      <br />
+      <label for="ime">Ime</label><br />
+      <input type="text" id="ime" /><br /><br />
+      <label for="prezime">Prezime</label><br />
+      <input type="text" id="prezime" /><br /><br />
+      <label for="datum">Datum rođenja</label><br />
+      <input type="date" id="datum" /><br /><br />
+
+      <label for="spol">Spol</label><br />
+      <select name="spol" id="spol">
+        <option value="musko">Muško</option>
+        <option value="zensko">Žensko</option></select
+      ><br /><br />
+
+      <label for="email">Email</label><br />
+      <input type="email" placeholder="npr. ivo.ivic@gmail.com" /><br /><br />
+      <label for="tel">Broj mobitela</label><br />
+      <input
+        type="tel"
+        id="tel"
+        name="tel"
+        placeholder="+385xx-xxx-xxxx"
+        pattern="+385[0-9]{2}-[0-9]{3}-[0-9]{4}"
+      /><br /><br />
+      <label for="img">Odaberi sliku:</label><br />
+      <input type="file" id="slika" name="slika" accept=".jpg" /><br /><br />
+
+      <input type="submit" value="REGISTRIRAJ SE" />
+    </form>
+  </body>
+</html>
