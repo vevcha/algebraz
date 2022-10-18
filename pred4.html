@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predavanje 4</title>
+  </head>
+  <body>
+    <!--  Multimedia - grafika  -->
+    <img
+      src="https://thumbs.dreamstime.com/b/happy-student-thumbs-up-classroom-looking-you-classmates-background-96531919.jpg"
+      width="50%"
+      height="50%"
+      alt="faca"
+    />
+    <br />
+    <br />
+    <br />
+    <img src="./images/faca.jpg" alt="faca" / width="200" height="200">
+
+    <br />
+    <br />
+    <br />
+    <img src="" alt="" />
+    <!-- Forme - nastavak -->
+    <form
+      action="#"
+      method="get"
+      oninput="bonus.value=parseInt(parseInt(placa.value)*0.2) + `kn`"
+    >
+      <label for="post"><strong> Unesite sadržaj svog posta:</strong></label>
+      <br />
+      <textarea name="post" id="post" cols="200" rows="10">
+Upišite svoj post</textarea
+      >
+      <br />
+      <br />
+      <label for="placa">Odabrerite iznos godišnje plaće:</label>
+      <input
+        type="range"
+        value="500000"
+        name="placa"
+        id="placa"
+        min="100000"
+        max="1000000"
+      />
+      <br />
+      <label for="bonus">Predviđeni bonus za potpisivanje ugovora:</label>
+      <output name="bonus" for="placa">100000</output>
+    </form>
+  </body>
+</html>
